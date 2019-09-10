@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <TextView
+                android:layout_span="3"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="Selecciona una foto !"
+                android:layout_margin="20dp"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView android:src="@drawable/img1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i1"/>
+            <ImageView android:src="@drawable/img2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i2"/>
+            <ImageView android:src="@drawable/img3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i3"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView android:src="@drawable/img4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i4"/>
+            <ImageView android:src="@drawable/img5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i5"/>
+            <ImageView android:src="@drawable/img6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i6"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView android:src="@drawable/img7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i7"/>
+            <ImageView android:src="@drawable/img8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i8"/>
+            <ImageView android:src="@drawable/img9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i9"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView android:src="@drawable/img10"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i10"/>
+            <ImageView android:src="@drawable/img11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i11"/>
+            <ImageView android:src="@drawable/img12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i12"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView android:src="@drawable/img13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i13"/>
+            <ImageView android:src="@drawable/img14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i14"/>
+            <ImageView android:src="@drawable/img15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i15"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView android:src="@drawable/img16"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i16"/>
+            <ImageView android:src="@drawable/img17"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i17"/>
+            <ImageView android:src="@drawable/img18"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:id="@+id/i18"/>
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
